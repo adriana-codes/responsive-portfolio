@@ -1,13 +1,91 @@
 :root {
   --primary-font: Urbanist;
   --special-font: Space Grotesk;
+
+  /* font sizes */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-xxl: 1.5rem;
+  --font-size-3xl: 2.25rem;
+  --font-size-4xl: 4rem;
+
+  /* font colors */
+  --purple-med-color: #372e7f;
+  --purple-dark-color: #2a1a5e;
+  --purple-light-color: #665bc4;
+  /* palette 1 */
+  --primary-color: #4d303f;
+  --secondary-color: #e6d389;
+  --thrid-color: #f8e8cc;
+  /* palette 2 */
+  --first-color: rgb(79 54 75);
+  --first2-color: rgba(225, 209, 237, 0.965);
+  --first3-color: rgb(202 186 215);
+  --secondary2-color: rgb(219 62 29);
+  --secondary3-color: rgb(247 233 222);
+
+  --btn-color: #282724;
+  --btn-hover: #34332f;
+
+  /* widths */
+  --max-width-xl: 1200px;
+  --max-width-md: 900px;
+  --max-width-sm: 600px;
 }
 
+/* All text styling */
 h1 {
   font-family: var(--special-font);
-  color: violet;
+  color: var(--purple-dark-color);
+}
+
+h2,
+h3,
+h4,
+p {
+  color: var(--purple-med-color);
 }
 
 body {
   font-family: var(--primary-font);
+}
+
+/* Hero Homepage */
+
+.hero {
+  background: var(--first2-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-size: var(--font-size-4xl);
+}
+
+.hero h4 {
+  font-size: var(--font-size-xxl);
+}
+
+.hero h2 {
+  font-size: var(--font-size-3xl);
+}
+
+.btn-contact {
+  color: var(--secondary3-color);
+  font-size: var(--font-size-md);
+  background-color: var(--purple-med-color);
+  padding: 5px 25px;
+  border-radius: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  background-color: var(--purple-light-color);
+  color: var(--secondary3-color);
 }

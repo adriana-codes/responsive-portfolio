@@ -1,0 +1,13 @@
+:root {
+  --primary-font: Urbanist;
+  --special-font: Space Grotesk;
+}
+
+h1 {
+  font-family: var(--special-font);
+  color: violet;
+}
+
+body {
+  font-family: var(--primary-font);
+}

@@ -12,15 +12,18 @@
   --font-size-3xl: 2.25rem;
   --font-size-4xl: 4rem;
 
-  /* font colors */
+  /* colors */
   --purple-med-color: #372e7f;
   --purple-dark-color: #2a1a5e;
   --purple-light-color: #665bc4;
+  --background-color: #feffdb;
+
   /* palette 1 */
   --primary-color: #4d303f;
   --secondary-color: #eadeaf;
   --other-color: #fffade;
   --thrid-color: #f8e8cc;
+
   /* palette 2 */
   --first-color: rgb(79 54 75);
   --first2-color: rgba(225, 209, 237, 0.965);
@@ -37,6 +40,12 @@
   --max-width-sm: 600px;
 }
 
+/* behaviour */
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 /* All text styling */
 h1 {
   font-family: var(--special-font);
@@ -46,6 +55,7 @@ h1 {
 h2,
 h3,
 h4,
+h5,
 p {
   color: var(--purple-med-color);
 }
@@ -57,7 +67,7 @@ body {
 /* Hero Homepage */
 
 .hero {
-  background: var(--first2-color);
+  background: var(--background-color);
   text-align: center;
   padding: 160px 20px;
 }

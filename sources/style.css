@@ -55,6 +55,11 @@ p {
 
 body {
   font-family: var(--primary-font);
+  background: var(--background-color);
+}
+
+.section-brk {
+  border-top: 2px dotted #282724;
 }
 
 /* Navbar */
@@ -70,7 +75,12 @@ body {
 /* Hero Homepage */
 
 .hero {
-  background: var(--background-color);
+  background: rgb(235, 241, 57);
+  background: radial-gradient(
+    circle,
+    rgba(238, 244, 30, 1) 0%,
+    rgba(254, 255, 219, 1) 100%
+  );
   text-align: center;
   padding: 160px 20px;
 }
@@ -128,7 +138,7 @@ a {
   margin: 80px auto;
   padding: 20px 30px;
   border-radius: 10px;
-  background-color: var(--background-color);
+  background-color: var(#ffff);
 }
 
 .btn-demo {
@@ -160,4 +170,34 @@ strong:hover {
 
 .socials a {
   margin: 10px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 430px) {
+  .hero .hi {
+    font-size: var(--font-size-sm);
+  }
+
+  .hero .name {
+    font-size: var(--font-size-xxl);
+  }
+
+  .hero .job {
+    font-size: var(--font-size-xl);
+  }
+
+  .hero .desc {
+    font-size: var(--font-size-sm);
+  }
+
+  .toolkit-description {
+    font-size: var(--font-size-sm);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero .desc {
+    font-size: var(--font-size-lg);
+  }
 }

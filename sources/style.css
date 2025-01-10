@@ -17,17 +17,14 @@
   --purple-dark-color: #2a1a5e;
   --purple-light-color: #665bc4;
   --background-color: #feffdb;
-
-  /* palette 2 */
-  --first-color: rgb(79 54 75);
-  --first2-color: rgba(225, 209, 237, 0.965);
-  --first3-color: rgb(202 186 215);
   --secondary2-color: rgb(219 62 29);
   --secondary3-color: rgb(247 233 222);
   --secondary4-color: #ff5349;
 
   --btn-color: #282724;
   --btn-hover: #34332f;
+  --btn-alt-color: #adaf40;
+  --btn-alt-hover: #fff083;
 
   /* widths */
   --max-width-xl: 1200px;
@@ -42,6 +39,7 @@
 }
 
 /* All text styling */
+
 h1 {
   font-family: var(--special-font);
   color: var(--purple-dark-color);
@@ -103,13 +101,27 @@ a {
 
 .btn-contact:hover {
   background-color: var(--purple-light-color);
-  color: var(--secondary3-color);
+  color: var(--btn-alt-hover);
 }
 
 /* Toolkit & Work section */
 
 .toolkit-section {
   margin: 80px auto;
+}
+
+.toolkit-description {
+  font-size: var(--font-size-md);
+}
+
+.top-tools {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bottom-tools {
+  font-weight: 400;
+  font-style: italic;
 }
 
 .work-section {
@@ -123,14 +135,20 @@ a {
   color: var(--secondary3-color);
   font-size: var(--font-size-md);
   font-weight: 700;
-  background-color: var(--secondary2-color);
+  background-color: var(--btn-alt-color);
   padding: 5px 25px;
   border-radius: 18px;
 }
 
 .btn-demo:hover {
-  background-color: var(--purple-med-color);
-  color: var(--secondary3-color);
+  background-color: var(--btn-alt-hover);
+  color: var(--purple-light-color);
+}
+
+/* Contact */
+
+.email-link {
+  color: var(--purple-med-color);
 }
 
 strong:hover {

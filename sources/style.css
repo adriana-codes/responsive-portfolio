@@ -18,18 +18,13 @@
   --purple-light-color: #665bc4;
   --background-color: #feffdb;
 
-  /* palette 1 */
-  --primary-color: #4d303f;
-  --secondary-color: #eadeaf;
-  --other-color: #fffade;
-  --thrid-color: #f8e8cc;
-
   /* palette 2 */
   --first-color: rgb(79 54 75);
   --first2-color: rgba(225, 209, 237, 0.965);
   --first3-color: rgb(202 186 215);
   --secondary2-color: rgb(219 62 29);
   --secondary3-color: rgb(247 233 222);
+  --secondary4-color: #ff5349;
 
   --btn-color: #282724;
   --btn-hover: #34332f;
@@ -62,6 +57,16 @@ p {
 
 body {
   font-family: var(--primary-font);
+}
+
+/* Navbar */
+
+.navbar {
+  background: var(--background-color);
+}
+
+.navbar a:hover {
+  color: var(--secondary2-color);
 }
 
 /* Hero Homepage */
@@ -99,4 +104,42 @@ a {
 .btn-contact:hover {
   background-color: var(--purple-light-color);
   color: var(--secondary3-color);
+}
+
+/* Toolkit & Work section */
+
+.toolkit-section {
+  margin: 80px auto;
+}
+
+.work-section {
+  margin: 80px auto;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: var(--background-color);
+}
+
+.btn-demo {
+  color: var(--secondary3-color);
+  font-size: var(--font-size-md);
+  font-weight: 700;
+  background-color: var(--secondary2-color);
+  padding: 5px 25px;
+  border-radius: 18px;
+}
+
+.btn-demo:hover {
+  background-color: var(--purple-med-color);
+  color: var(--secondary3-color);
+}
+
+strong:hover {
+  cursor: pointer;
+  color: var(--secondary4-color);
+}
+
+/* footer */
+
+.socials a {
+  margin: 10px;
 }

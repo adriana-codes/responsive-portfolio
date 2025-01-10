@@ -197,7 +197,7 @@ strong:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .hero .desc {
+  .hero .desc-sm {
     font-size: var(--font-size-lg);
   }
 }

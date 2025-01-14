@@ -38,7 +38,7 @@
   scroll-behavior: smooth;
 }
 
-/* All text styling */
+/* text styling */
 
 h1 {
   font-family: var(--special-font);
@@ -153,6 +153,19 @@ a {
 .btn-demo:hover {
   background-color: var(--btn-alt-hover);
   color: var(--purple-light-color);
+}
+
+/* Projects */
+
+.tools-btn {
+  border: 2px solid #34332f;
+  border-radius: 13px;
+  padding: 5px 10px;
+  gap: 1;
+}
+
+.tools-section {
+  margin-bottom: 15px;
 }
 
 /* Contact */

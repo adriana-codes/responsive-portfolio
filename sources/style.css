@@ -156,6 +156,8 @@ a {
   border: 1px solid var(--btn-alt-color);
 }
 
+/* About */
+
 /* Projects */
 
 .tools-btn {
@@ -229,6 +231,8 @@ strong:hover {
   .hero .desc-sm {
     font-size: var(--font-size-xs);
   }
+
+  /* About */
 
   /* Project Page */
 

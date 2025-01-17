@@ -148,6 +148,7 @@ a {
   background: var(--btn-alt-color);
   padding: 5px 25px;
   border-radius: 18px;
+  transition: all 0.2 ease-in-out;
 }
 
 .btn-demo:hover {

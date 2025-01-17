@@ -237,6 +237,11 @@ strong:hover {
 
   /* Project Page */
 
+  .project-img {
+    display: block;
+    margin: 0 auto;
+  }
+
   .project-title {
     text-align: center;
     font-size: var(--font-size-md);
@@ -252,5 +257,13 @@ strong:hover {
   }
   .tools-btn {
     line-height: 2.5;
+  }
+
+  /* contact */
+
+  .dog-msg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
   }
 }
